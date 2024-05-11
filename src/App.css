@@ -1,0 +1,54 @@
+.list-disc-custom::before {
+  content: "•";
+  color: #eaaa08;
+  display: inline-block;
+  width: 1em;
+}
+
+.list-disc-custom1::before {
+  content: "•";
+  color: #0c0f5c;
+  display: inline-block;
+  width: 1em;
+  margin-left: 12px;
+}
+
+button {
+  border-color: #0b0e54;
+}
+
+th {
+  font-weight: 500;
+}
+
+@media screen and (max-width: 767px) {
+  .large-screen {
+    display: none;
+  }
+
+  .mobile-nav {
+    position: fixed !important;
+    width: 100%;
+  }
+.searchbar{
+  display: none;
+}
+  .header {
+    margin-top: 90px;
+  }
+
+  .avartar {
+    display: none !important;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1000px) {
+  .mobile {
+    height: 50px !important;
+    padding: 10px !important;
+  }
+
+  .open-menu {
+    height: 100% !important;
+  }
+}
